@@ -1,0 +1,196 @@
+body {
+    font-family: Arial,  ans-serif;
+    background-color: #e7e4e4;
+    margin: 0;
+    padding: 0;
+}
+.teacher_head,
+.subject_form_head{
+    text-align: center;
+}
+
+.add_course,
+.add_year,
+.add_semester,
+.add_batch ,
+.add_subject,
+.add_teacher_subject_form,
+.add_student_semester_form{
+    max-width: 400px;
+    margin: 100px auto;    
+    background: #5a5959;
+    padding: 20px;
+    border: 2px solid rgb(192, 180, 180);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.teacher_registration,
+.admin_update_profile,
+.admin_registration{
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #706363;
+    padding: 20px;
+    border: 2px solid rgb(192, 180, 180);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+}
+.admin_update_profile{
+    max-width: 450px;
+    margin: 50px auto;
+    background-color: #706363;
+    padding: 20px;
+    border: 2px solid rgb(192, 180, 180);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add_course div,
+.add_year div,
+.add_semester div,
+.add_batch div,
+.admin_registration div,
+.teacher_registration,
+.add_subject,
+.add_teacher_subject_form,
+.add_student_semester_form{
+    margin-bottom: 15px;
+}
+
+.add_course label,
+.add_year label,
+.add_semester label,
+.add_bacth label,
+.teacher_registration label,
+.add_subject label,
+.add_teacher_subject_form label,
+.add_student_semester_form label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.teacher_registration label,
+.admin_registration label{
+    display: inline;
+    font-weight: bold;
+    width: 80px;
+}
+
+.add_course input,
+.add_course select,
+.add_year input,
+.add_year select,
+.add_semester input,
+.add_semester select,
+.add_batch input,
+.add_batch select,
+.add_subject input,
+.add_subject select,
+.add_teacher_subject_form input,
+.add_teacher_subject_form select,
+.add_student_semester_form input,
+.add_student_semester_form select
+{
+    font-size: 105%;
+    width: 90%;
+    background-color: #a39b9b;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: block;
+}
+.teacher_registration input,
+.teacher_registration select,
+.admin_update_profile input,
+.admin_update_profile select,
+.admin_registration input
+{
+    font-size: 105%;
+    width: 70%;
+    background: #a8a1a1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline;
+}
+.teacher_registration .teacher_gender_div{
+    margin-left: 18%;
+}
+.teacher_registration .teacher_gender{ 
+    display: inline;
+    width: 10%;
+    margin: 0% 9% 5% 0.5%;
+}
+.teacher_registration span,
+.admin_update_profile span,
+.add_subject span,
+.add_teacher_subject_form span,
+.admin_registration span
+{
+    color: rgb(199, 199, 75);
+    margin-bottom: 5%;
+    display: block;
+    text-align: center;
+}
+.add_course button,
+.add_year button,
+.add_semester button,
+.add_batch button ,
+.teacher_registration button,
+.admin_update_profile button,
+.add_subject button,
+.add_teacher_subject_form button,
+.add_student_semester_form button,
+.admin_registration button{
+    margin-left: 10%;
+    text-align: center;
+    width: 70%;
+    font-size: 105%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+,
+.admin_registration button:hover{
+    background-color: #45a049;
+}
+.add_course button:hover {
+    background-color: #45a049;
+}
+.add_year button:hover {
+    background-color: #45a049;
+}
+.add_semester button:hover {
+    background-color: #45a049;
+}
+.add_batch button:hover {
+    background-color: #45a049;
+}
+.teacher_registration button:hover{
+    background-color: #45a049;
+}
+.add_subject button:hover{
+    background-color: #45a049;
+}
+.add_teacher_subject_form button:hover{
+    background-color: #45a049;
+}
+.add_student_semester_form utton:hover{
+    background-color: #45a049;
+}
+/* admin profile update passwrod show/hide */
+.admin_update_profile img#pwd_hide,
+.admin_update_profile img#pwd_show {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+    right: 25px;
+    cursor: pointer;
+}

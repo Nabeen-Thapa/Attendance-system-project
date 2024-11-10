@@ -1,0 +1,175 @@
+/* General Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+} */
+
+.student_registration {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #a5a2a2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 5);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.student_registration label {
+    display: inline;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0f0f0f;
+}
+
+.student_registration input[type="text"], 
+.student_registration input[type="email"], 
+.student_registration input[type="date"], 
+.student_registration input[type="number"],
+select {
+    background-color: #d5d6d8;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 5);
+    font-size: 17px;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.std_course_typer input[type="radio"] {
+    margin:10px 5px 20px 10px;
+
+}
+
+span.reg_err {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.stdregclick {
+    display: block;
+    width: 58%;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.stdregclick:hover {
+    background-color: #0056b3;
+}
+
+.std_course_typer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.std_course_typer input[type="radio"] {
+    margin: 0 5px 0 0;
+}
+
+.outstd_course_typer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectcourse {
+    display: flex;
+    
+}
+
+.selectcourse .std_course, 
+.selectcourse .std_year, 
+.selectcourse .std_semester, 
+.selectcourse .std_batch {
+    flex: 1 0 calc(10% - 5px);
+}
+
+.std_sec_roll_reg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.std_sec_roll_reg label{
+    display: block;
+}
+.std_sec_roll_reg .std_section, 
+.std_sec_roll_reg .std_regno, 
+.std_sec_roll_reg .std_roll, 
+.std_sec_roll_reg .std_address {
+    flex: 1 0 calc(10% - 20px);
+}
+
+/* Close Button */
+.std_regclose {
+    text-decoration: none;
+    font-size: 30px;
+    color: #333;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.std_regclose:hover {
+    color: #000;
+}
+
+/* Gender Section */
+.std_gender {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.std_gender input[type="radio"] {
+    margin: 10px 50px 10px 10px ;
+}
+
+.std_gender label {
+    margin-right: 30px;
+}
+
+.std_gender span {
+    margin-left: 20px;
+    color: red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .selectcourse .std_course, 
+    .selectcourse .std_year, 
+    .selectcourse .std_semester, 
+    .selectcourse .std_batch,
+    .std_sec_roll_reg .std_section, 
+    .std_sec_roll_reg .std_regno, 
+    .std_sec_roll_reg .std_roll, 
+    .std_sec_roll_reg .std_address {
+        flex: 1 1 2%;
+    }
+
+    .std_course_typer {
+        flex-direction: column;
+    }
+
+    .outstd_course_typer {
+        flex-direction: column;
+    }
+}

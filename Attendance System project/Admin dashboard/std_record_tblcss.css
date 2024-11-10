@@ -1,0 +1,58 @@
+.std_tbl_css{
+    margin-top: 100px;
+    width: 83%;
+    float: inline-end; 
+    
+}
+.for_margin{
+    margin-top: -100px;
+}
+.std_tbl_css .rec_months{
+    padding: 0.5%;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    
+}
+/*attendance table heading css*/
+.std_tbl_css{ 
+    margin-top: 5px;
+    width: 83%;
+    float: inline-end; 
+}
+/* dropdown box to find stundet */
+.std_find{
+    top: 0;
+    display: block;
+    margin: 20% 0% 0% 20%;
+
+}
+.std_course,
+.std_batch,
+.std_semester{
+    display: inline;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+th,td{
+    text-align: center;
+    width: fit-content;
+}
+.attendance_tbl{
+    text-align: center;
+    font-size: 110%;
+}
+
+/*student table profile*/
+ .student_tbl_pic{
+    height: 35px;
+    width: 40px;
+    margin: 0%;
+    padding: 1px;
+    border: 1px solid blue;
+    border-radius: 50%;
+} 
+
+
+

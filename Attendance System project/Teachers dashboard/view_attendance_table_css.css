@@ -1,0 +1,84 @@
+/*attendance table heading css*/
+.std_tbl_css{ 
+    margin-top: 5px;
+    width: 83%;
+    float: inline-end; 
+}
+/* dropdown box to find stundet */
+.std_find{
+    top: 0;
+    display: block;
+    margin: 20% 0% 0% 20%;
+
+}
+.std_course,
+.std_batch,
+.std_semester{
+    display: inline;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+th,td{
+    text-align: center;
+    width: fit-content;
+}
+.attendance_tbl{
+    text-align: center;
+    font-size: 110%;
+}
+
+/*student table profile*/
+ .student_tbl_pic{
+    height: 35px;
+    width: 40px;
+    margin: 0%;
+    padding: 1px;
+    border: 1px solid blue;
+    border-radius: 50%;
+} 
+
+/*present and absent button */
+
+.attendancebtn{
+    color: yellow;
+    font-size: 110%;
+    background-color: rgb(71, 71, 73);
+    padding: 4px 15px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+/* for absent button */
+#absent{
+    display: none;
+}
+.leftname{
+    text-align: left;
+}
+#present_checkbox{
+    height: 15px;
+    width: 50px;
+}
+
+/* save attendace button of attenddace table */
+button{
+    background-color: green;
+    font-size: 110%;
+    color: white;
+    padding: 3px 4px;
+    padding: 3px 4px;
+}
+/* view attendace record button form attendance table */
+.view_attendance_btn{
+    background-color: black;
+    width: 40%;
+    float: inline-end;
+}
+.view_attendance_btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.view_attendance_btn a:hover{
+    color: blue;
+}

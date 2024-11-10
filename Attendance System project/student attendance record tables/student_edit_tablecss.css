@@ -1,0 +1,56 @@
+
+/* student edit and delete table icons*/
+.std_hedit{
+    width: 4%;
+}
+/* student delete and edit image css */
+.std_edit{
+    padding: 0%;
+    margin: 0%;
+    width: 60%;
+    cursor: pointer;
+}
+/*attendance table heading css*/
+h1{
+    margin: 5% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    
+}
+.std_edit_tbl{
+    margin-top: 5px;
+    width: 83%;
+    float: inline-end; 
+}
+.std_tbl_css{ 
+    border-collapse: collapse;
+}
+
+th,td{
+    text-align: center;
+}
+ 
+.edit_id_roll{
+    width: 7%;
+
+}
+
+.attendance_tbl{
+   
+    font-size: 110%;
+    width: fit-content;
+} 
+/*student table profile*/
+ .student_tbl_pic{
+    height: 25px;
+    width: 30px;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid blue;
+    border-radius: 50%;
+}
+
+/* student name align */
+.align_left{
+    text-align: left;
+}

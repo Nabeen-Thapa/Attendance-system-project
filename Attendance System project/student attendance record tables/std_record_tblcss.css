@@ -1,0 +1,13 @@
+.std_tbl_css{
+    margin-top: 5px;
+    width: 83%;
+    float: inline-end; 
+}
+.std_tbl_css .rec_months{
+    padding: 0.5%;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    
+}

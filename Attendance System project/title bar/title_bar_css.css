@@ -1,0 +1,159 @@
+/*teacher dashborad enter*/
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(192, 190, 188);
+}
+/*teacher top bar css*/
+#dash_topbar{
+    position: fixed;
+    background-color: rgb(37, 36, 36);
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+/*attendance logo div css*/
+.Alogo{
+    margin: 0.5% 0% 0% 2%;
+    float: inline-start;
+    display: inline;
+    height: 16%;
+    width: 10%;
+}
+/*attendance logo pic*/
+.alogo_pic{
+    height: 100%;
+    width: 100%;
+    margin: 0.8% 0.7%;
+    padding: 0.3%;
+    background-color: rgb(94, 94, 121);
+    border-radius: 5px;  
+}
+.dropdown_lists{
+    display: inline;
+    margin-left: 5%;
+}
+/*css for select tag*/
+.DDselect{
+    color: yellow;
+    width: 8%;
+    padding: 0.1%;
+    font-size: 130%;
+    margin: 0.8% 0.8%;
+    background-color: transparent;
+    border-radius: 4px;
+}
+.DDselect option{
+    background-color: rgb(68, 68, 68);
+    border: 1px solid rgb(68, 68, 68);
+    width: fit-content;
+    font-size: 107%;
+}
+/* teacher and admin logout button  */
+.logout_btn{
+    text-decoration: none;
+    background-color: rgb(138, 136, 19);
+    font-size: 150%;
+    border: 1px solid;
+    padding: 0.5%;
+    margin: 2%;
+
+}
+
+
+/*teacher frofile part*/
+#idteacher_profile_part{
+    border-left: 3px solid;
+    padding: 4px 0px 10px 25px;
+    float: inline-end;
+    
+}
+@media only screen and (max-width: 750px) {
+    div#idteacher_profile_part {
+      display: none;
+    }
+  }
+#idteacher_pic_part{
+    float: inline-start;
+}
+
+.teacherPP{
+    height: 38px;
+    width: 38px;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+#idprofile_text{
+    float: inline-start;
+    color: yellow;
+    margin-top: 5%;
+    font-size: 160%;
+    
+}
+
+
+
+/*teacher attendenca file create form*/
+.teach_create_hide{
+    font-size: 30px;
+    float: right;
+    margin: 1%;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    margin: 3%; 
+      
+}
+.teacher_choose{
+    float: inline-start;
+    background-color: rgb(43, 40, 40);
+    border: 3px solid rgb(47, 255, 0);
+    border-radius: 1%;
+    transform: translate(50%,-40%);
+    width: 40%;
+    padding: 0.8%;
+    color: yellow;
+}
+.teach_chooselbl{
+    display: block;
+    font-size: 150%;
+}
+.tech_choose_option{
+    background-color: rgb(28, 184, 184);
+    font-size: 120%;
+    width: 60%;
+    display: inline;
+    margin-bottom: 3%;
+}
+.create_sub_err{
+    display: inline;
+    font-size: 120%;
+}
+#type_choose_opt{
+    background-color: rgb(43, 40, 40);
+}
+.teacher_choosebtn{
+    width: 28%;
+    margin: 1%;
+    font-size: 105%;
+}
+#teacher_createbtn{
+    float: right;
+}
+.stdcourse_type{
+    
+    cursor: pointer;
+    margin: 1% 15% 1% 1%;
+}
+.outstd_course_typer{
+    margin: 1% 2%; 
+}
+
+
+
+

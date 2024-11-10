@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.admin_upload_image,
+.teacher_upload_image,
+.student_upload_image {
+    background-color: #a39e9e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 16);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.admin_upload_image h2,
+.teacher_upload_image h2,
+.student_upload_image h2
+ {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.admin_upload_image label,
+.teacher_upload_image label,
+.student_upload_image label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0f0f0f;
+}
+
+.admin_upload_image input[type="file"],
+.teacher_upload_image input[type="file"],
+.student_upload_image input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #b6b2b2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 5);
+}
+
+.admin_upload_image .error-message, 
+.teacher_upload_image .error-message,
+.student_upload_image .error-message{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.admin_upload_image .upload-btn,
+.teacher_upload_image .upload-btn,
+.student_upload_image .upload-btn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.admin_upload_image .upload-btn:hover {
+    background-color: #45a049;
+}
+.teacher_upload_image .upload-btn:hover {
+    background-color: #45a049;
+}
+.student_upload_image .upload-btn:hover {
+    background-color: #45a049;
+}
+@media (max-width: 480px) {
+    .admin_upload_image {
+        padding: 15px;
+    }
+    .teacher_upload_image{
+        padding: 15px;
+    }
+.student_upload_image {
+    padding: 15px;
+}
+
+    .admin_upload_image h2 {
+        font-size: 1.5em;
+    }
+    .teacher_upload_image h2 {
+        font-size: 1.5em;
+    }
+
+    .student_upload_image h2 {
+        font-size: 1.5em;
+    }
+
+}
+/* admin picture update button */
+.admin_pic_btn,
+.student_pic_update,
+.teacher_pic_update{
+    box-shadow: 0 4px 8px rgba(0, 0, 3, 5);
+    color: white;
+    background-color: #5a5c5a;
+    font-size: 18px;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.admin_pic_btn:hover{
+    background-color: #5b5f5b;
+}
+.teacher_pic_update:hover{
+    background-color: #5b5f5b;
+}
+.student_pic_update:hover{
+    background-color: #5b5f5b;
+}

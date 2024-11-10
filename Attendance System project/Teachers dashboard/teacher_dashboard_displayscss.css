@@ -1,0 +1,21 @@
+#menu_display{
+    margin-top:45px;
+    float: inline-start;
+}
+.teacher_dash_display{
+    margin-top: 5px;
+    width: 83%;
+    float: inline-end; 
+}
+
+.dash_fix{
+    margin-top:60px;
+}
+@media only screen and (max-width: 750px) {
+    .teacher_dash_display{
+        width: 100%;
+    }
+
+  }
+
+  

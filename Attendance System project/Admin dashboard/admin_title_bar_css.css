@@ -1,0 +1,146 @@
+/*admin dashborad enter*/
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(192, 190, 188);
+    overflow: visible;
+    font-family: 'Times New Roman';
+   
+}
+
+#admin_title_bar{
+    top: 0;
+    align-items: center;
+    background-color: rgb(37, 36, 36);
+    padding: 0%;
+    margin: 0%;
+    position: fixed;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    z-index: 1000; 
+    
+}
+
+.admin_view_links a.active {
+  background-color: yellow;
+  color: red;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/*attendance logo div css*/
+.Alogo{
+    margin: 0.1% 0% 0% 2%;
+    float: inline-start;
+    display: inline-flex;
+    height: 16%;
+    width: 10%;
+}
+/*attendance logo pic*/
+.alogo_pic{
+    height: 100%;
+    width: 100%;
+    margin: 0.1% 0.7%;
+    padding: 0.1%;
+    background-color: rgb(94, 94, 121);
+    border-radius: 5px;  
+}
+/* for ancher tags(admin view links) */
+.admin_view_links{
+    text-align: center;
+    width: fit-content;
+    display: inline-flex;
+    margin: 0.5%;
+}
+
+.admin_view_links a{
+  text-decoration: none;
+  color: white;
+  font-size: 140%;
+  margin: 0px 7px;
+  padding: 5px;
+  background-color: transparent;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 20);
+}
+
+.admin_view_links a:hover{
+    background-color: rgb(115, 112, 119);
+    border-radius: 10px;
+}
+
+/*admin profile part*/
+#idadmin_profile_part{
+    padding: 4px 0px 7px 5px;
+    display: inline-block;
+    margin-right: 80px;
+    
+}
+@media only screen and (max-width: 750px) {
+    div #idadmin_profile_part {
+      display: none;
+    }
+  }
+#idadmin_pic_part{
+    float: inline-start;
+}
+
+.adminPP{
+    height: 40px;
+    width: 40px;
+    display: inline;
+    margin: 0px;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+}
+#idprofile_text{
+    float: inline-start;
+    color: yellow;
+    margin-top: 5%;
+    font-size: 140%;
+    
+}
+
+/* admin view profile/logout dropdown css */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(110, 108, 108);
+    min-width: 130px;
+    box-shadow: 0 0 16px rgba(0,0,0,20);
+    
+  }
+  
+  .dropdown-content a{
+    float: left;
+    color: black;
+    padding: 7px 0px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    width: 100%;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .dropbtn {
+    left: 0;
+    margin-top: 15px;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }

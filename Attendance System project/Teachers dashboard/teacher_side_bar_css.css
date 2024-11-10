@@ -1,0 +1,107 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.teacher_side_bar{
+    top: 0;
+    left: 0;
+    padding: 0.5%;
+    display: block;
+    position: fixed;
+    margin: 3.9% 5% 0% 0%;
+    font-size: 120%;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(37, 36, 36);
+    text-align: left;
+}
+.admin_side_ascolling
+{
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+}
+.teacher_side_bar #admin_add_forms{
+    margin: 0%;
+    padding: 0% 1% 1% 1% 1%;
+    background-color: rgb(10, 10, 10);
+    border: 1px solid blue;
+}
+.teacher_side_bar #admin_forms{
+    padding: 0% 0%;
+    margin: 0% 0.8%;
+    font-size: 85%;
+    width: 94%;
+    height: 100%;
+    background-color: rgb(59, 58, 58);
+    text-align: left;
+}
+#forms_close{
+    margin: 0%;
+    float: right;
+    color: yellow;
+    cursor: pointer;
+    font-size: 120%;
+
+}
+@media only screen and (max-width: 750px) {
+    .teacher_side_bar {
+      display: none;
+    }
+    .teacher_dash_display{
+        width: 100%;
+    }
+
+  }
+.menus,
+.teacher_side_bar div
+{
+    float: inline-start;
+    text-align: left;
+    cursor: pointer;
+    padding: 2% 0% 0% 0%;
+    margin: 4% 0% 0% 0%;
+    color: rgb(247, 235, 250);
+    display: block;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    font-size: 100%;
+    
+}
+.teacher_side_bar a:hover{
+    background-color: rgb(116, 114, 114);
+    
+}
+.teacher_side_bar a a:hover{
+    background-color: rgb(116, 114, 114);
+    
+}
+.teacher_side_bar .add_forms:hover{
+    background-color: rgb(116, 114, 114);
+    
+}
+/*tacher menu bar images of dashboard*/
+.menus .teach_dashimg{
+    float: inline-end;
+    margin: 0% 0% 0% 0%;
+    padding: 0%; 
+    width: 17%;
+    height: 16%;
+    float: right; 
+}
+ /* all student edit and remove table */
+#allstd{
+    width: 20%;
+    height: 23%;
+}
+/* add student icon of dashboard menu bar */
+#addstd{
+    width: 17%;
+    height: 14%;
+}
+#logout{
+    background: transparent;
+}

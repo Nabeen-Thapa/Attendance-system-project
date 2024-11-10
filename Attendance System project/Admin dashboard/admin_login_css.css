@@ -1,0 +1,320 @@
+body {
+    background-color: rgb(248, 247, 250);
+}
+
+/* Welcome Section */
+#index_body #idwelcome {
+    font-size: 250%;
+}
+
+/* Login Form Styling */
+.index_body h1, .index_body h2 {
+    margin: 0%;
+}
+
+.index_body {
+    background-color: rgb(228, 225, 225);
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+}
+
+#idchoosetype {
+    background-color: rgb(109, 108, 108);
+    color: rgb(181, 253, 11);
+    width: 90%;
+    max-width: 500px;
+    margin: 5% auto 8%;
+    padding: 2%;
+    border: 0.009px solid rgb(4, 252, 45);
+    border-radius: 2%;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 15);
+}
+
+.chooseperson {
+    width: 40%;
+    font-size: 15px;
+    height: 30px;
+}
+
+/* Login Button Styling */
+.loginfirst {
+    font-size: 120%;
+}
+
+.login-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.loginopen, .index_reg_open {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 15);
+    padding: 1%;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    background-color: rgb(73, 66, 70);
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+    max-width: 100px;
+}
+
+.loginopen:hover, .index_reg_open:hover {
+    background-color: rgb(49, 45, 47);
+}
+
+#idloginborder {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 15);
+    border: 1px solid rgb(31, 31, 116);
+    border-radius: 2%;
+    margin: 7% auto 4%;
+    padding: 4%;
+}
+
+.loginchooseclose {
+    cursor: pointer;
+    font-size: 160%;
+    display: block;
+}
+
+/* Registration Form Styling */
+.noreg {
+    font-size: 120%;
+}
+
+.index_reg_open:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+#idreg-choose {
+    text-decoration: underline blue;
+}
+
+#idregborder {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 15);
+    border: 1px solid rgb(34, 34, 113);
+    border-radius: 2%;
+    margin-top: 7%;
+    padding: 4%;
+}
+
+.regchooseclose {
+    cursor: pointer;
+    font-size: 160%;
+    display: block;
+}
+
+/* Admin Login Form CSS */
+.admin_login_panel, .admin_pwd_panel, .teacher_pwd_panel, .student_pwd_panel {
+    margin: 3% auto;
+    border-radius: 8px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 15);
+}
+
+.admin_login_form, .admin_pwd_form, .teacher_pwd_change, .teacher_pwd_form, .student_pwd_form {
+    background-color: #b1aaaa;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.admin_login_form a.close,
+.admin_pwd_form a.close,
+.admin_pwd_change a.close
+ a.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #a12d2d;
+    text-decoration: none;
+}
+
+.admin_login_form a.close:hover,
+ .admin_pwd_form a.close:hover 
+ a.close:hover {
+    color: #000;
+}
+
+.admin_login_form h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.admin_login_form img#idloginimag {
+    display: block;
+    margin: 0 auto 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.admin_login_form label, .admin_pwd_form label, .teacher_pwd_change label, .teacher_pwd_form label, .student_pwd_form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #272525;
+    font-size: 19px;
+}
+
+.admin_login_form input[type="text"],
+.admin_login_form input[type="password"],
+ .admin_pwd_form input[type="email"],
+  .admin_pwd_form input[type="number"],
+   .admin_pwd_form input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: inline;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+}
+
+.admin_login_form input[type="checkbox"] {
+    margin-right: 10px;
+    display: inline;
+}
+
+.admin_login_form img#pwd_hide, .admin_login_form img#pwd_show {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.admin_login_form span, .admin_pwd_form span, .teacher_pwd_form span, .student_pwd_form span, .teacher_pwd_change span {
+    color: red;
+    font-size: 18px;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.admin_login_form button, .admin_pwd_form button, .teacher_pwd_form button, .student_pwd_form button, .teacher_pwd_change button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 80%;
+    margin: 5px 0% 5px 9%;
+    transition: background-color 0.3s;
+}
+
+.admin_login_form button#login_cancel {
+    background-color: #dc3545;
+}
+
+.admin_login_form button:hover, .admin_pwd_form button:hover, .teacher_pwd_change button:hover, .teacher_pwd_form button:hover, .student_pwd_form button:hover {
+    background-color: #0056b3;
+}
+
+.admin_login_form button#login_cancel:hover {
+    background-color: #c82333;
+}
+
+.admin_login_form div {
+    margin-bottom: 15px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .admin_login_panel, .admin_pwd_panel {
+        margin: 3% auto;
+    }
+
+    .admin_login_form, .admin_pwd_form {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .admin_login_form img#idloginimag {
+        width: 80px;
+        height: 80px;
+    }
+
+.admin_login_form input[type="text"],
+.admin_login_form input[type="password"],
+.admin_pwd_form input[type="email"],
+.admin_pwd_form input[type="number"],
+.admin_pwd_form input[type="text"]
+ {
+        width: calc(100% - 35px);
+    }
+
+    .admin_login_form button.loginclick {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .admin_keep_sign, .admin_forget_pwd {
+        display: inline-block;
+        text-align: left;
+        margin: 0;
+    }
+
+    .admin_forget_pwd a {
+        float: inline-end;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .admin_login_panel, .admin_pwd_panel, .teacher_pwd_panel, .student_pwd_panel {
+        margin: 3% auto;
+    }
+
+    .admin_login_form, .admin_pwd_form, .teacher_pwd_change, .teacher_pwd_form, .student_pwd_form {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .admin_login_form img#idloginimag {
+        width: 60px;
+        height: 60px;
+    }
+
+    .admin_login_form input[type="text"],
+    .admin_login_form input[type="password"],
+    .admin_pwd_form input[type="email"],
+    .admin_pwd_form input[type="number"], 
+    .admin_pwd_form input[type="text"]
+     {
+        width: calc(100% - 30px);
+    }
+
+    .admin_login_form button.loginclick {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .admin_keep_sign, .admin_forget_pwd {
+        display: inline;
+        text-align: left;
+        margin: 0;
+    }
+
+    
+
+    .admin_forget_pwd a {
+       float: inline-end;
+        
+    }
+}

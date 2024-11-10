@@ -1,0 +1,129 @@
+.student_title_bar{
+    margin: 0%;
+    padding: 0%;
+}
+/* student title background div */
+.std_title_bar{
+    top: 0;
+    margin: 0%;
+    text-align: center;
+    background-color: rgb(39, 177, 73);
+    height: 57px;
+    width: 100%;
+    position: fixed;
+    
+   
+}
+.std_title_bar div{
+    display: inline;
+}
+/*attendance logo div css*/
+.Alogo{
+    margin: 0.5% 0% 0% 2%;
+    float: inline-start;
+    display: inline;
+    height: 70%;
+    width: 100px;
+}
+/*attendance logo pic*/
+.alogo_pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;  
+}
+
+
+.std_title_bar .std_titles{
+    color: white;
+    text-decoration: none;
+    font-size: 140%;
+    background: transparent;
+    padding: 0.5%;
+    margin: 1%;
+}
+.std_title_bar .std_titles:hover{
+    background-color:  rgb(209, 191, 191);
+    color:  rgb(66, 66, 65);
+}
+/* studnet logout button */
+.std_logout_btn{
+    text-decoration: none;
+    background-color: rgb(138, 136, 19);
+    font-size: 150%;
+    border: 1px solid;
+    
+    
+
+}
+/* studnet profile part of the title bar */
+#idstudent_pic_part{
+    padding: 4px 0px 7px 5px;
+    display: inline-block;
+    margin-left: 250px;
+}
+.studentPP{
+    height: 40px;
+    width: 40px;
+    display: inline;
+    margin: 0px;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+}
+#idprofile_text{
+    float: inline-start;
+    color: yellow;
+    margin-top: 3%;
+    font-size: 160%;  
+}
+/* for student profile hide when minimize the screen */
+@media only screen and (max-width: 750px) {
+    div#idstudent_profile_part {
+      display: none;
+    }
+  }
+
+  /* student view profile/logout dropdown css */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(110, 108, 108);
+  min-width: 130px;
+  box-shadow: 0 0 16px rgba(0,0,0,20);
+  
+}
+
+.dropdown-content a{
+  float: left;
+  color: black;
+  padding: 7px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  width: 100%;
+}
+
+.show {
+  display: block;
+}
+
+.dropbtn {
+  left: 0;
+  margin-top: 15px;
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+

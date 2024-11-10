@@ -1,0 +1,41 @@
+/* serach bar */
+.search_bar{
+    float: inline-end;
+    width: 400px;
+    margin: 80px 10px 0px 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10);
+    border-radius: 0 20px 20px 0;
+}
+/* Search box */
+.search-box {
+  padding: 7px 7px;
+  border: 2px solid #ccc;
+  border-right: none;
+  border-radius: 20px 0px 0px 20px;
+  font-size: 16px;
+  width: 300px;
+  
+}
+
+/* Search button */
+.search-button {
+  width: 80px;
+  padding: 10px;
+  border: none;
+  float: inline-end;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  /* transition: background-color 0.4s ease-in-out; */
+}
+
+/* Hover effect */
+.search-button:hover {
+  background-color: #45a049;
+}
+
+/* Focus effect */
+/* .search-box:focus {
+  width: 600px;
+} */

@@ -1,0 +1,171 @@
+/*all registration*/
+.std_regclose{
+    text-decoration: none;
+    font-size: larger;
+    color: yellow;
+    display: inline;
+    float: inline-end;
+    font-size: 130%;
+    margin: 1%;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    font-size: 200%;
+    margin: 1% 0% 5% 0%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+  
+}
+.student_registration{
+    
+    display: block ;
+    background-color: rgb(172, 163, 163);
+    border-radius: 1%;
+    width: 45%;
+    padding: 0.5%;
+    font-size: large;
+    color: black;
+}
+.student_registration input{
+    background-color: rgb(185, 153, 233);
+    border-radius: 5px;
+    font-size: 95%;
+    width: 50%;
+}
+.student_registration input[type="radio"]{
+    width: 20%;
+}
+.stdregister,.stdreglbl{
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 0.7%;
+    width: 39%;
+    font-size: 110%;
+}
+
+.stdregister{
+    font-size: 85%;
+    background-color: rgb(44, 44, 46);
+}
+/* student course/year/semester/batch dropdown box css */
+ 
+.selectcourse .std_course,
+.selectcourse .std_year,
+.selectcourse .std_semester,
+.selectcourse .std_batch{
+    display: inline-block;
+    width: 23%;
+}
+.selectcourse label,
+.selectcourse select{
+    display: block;
+    
+}
+.selectcourse select{
+    background-color: rgb(185, 153, 233);
+    width: 90%;
+    font-size: 90%;
+    border-radius: 7px;
+    padding: 2% 0%;
+    margin: 0;
+}
+
+/* style for student  section/registration no / rollno.*/
+.std_sec_roll_reg div{
+    display: inline-block;
+    width: 23%;
+    margin: 0%;
+}
+.std_section,
+.std_regno,
+.std_roll,
+.std_address
+{
+    
+   display: inline-block;
+}
+.std_sec_roll_reg label,
+.std_sec_roll_reg input,
+.std_sec_roll_reg span{
+    display: block;
+}
+.std_sec_roll_reg input{
+    width: 95%;
+    font-size: 90%;
+    padding: 2.5% 0.5%;
+}
+
+
+/* click button */
+.stdregclick{
+    font-size: 95%;
+    width: 21%;
+    margin: 2%;
+}
+
+#idstdregsubmit{
+    
+    float: inline-end;
+}
+h1{
+    text-align: center;
+}
+
+/*teacher and student registration*/
+
+#idstdgenderlbl{
+    display: block;
+   }
+.teachergender,
+.stdgender{
+    cursor: pointer;
+    margin-right: 8%;
+    margin-bottom: 3%;
+   }
+.outteachergender,
+.outstdgender{
+    margin-left: 9%;   
+   }
+
+.stdcourse_type{
+    cursor: pointer;
+    margin: 1% 15% 2% 1%;
+}
+
+
+/*submit and cancel button of student registration form*/
+.stdregclick{
+    background-color: rgb(211, 188, 188);
+}
+/*registration form input error message and student registration image uplaod */
+.student_registration span,
+#std_reg_img_err{
+    padding: 0% 0.5%;
+    color: yellow;
+    
+}
+.student_registration span{ 
+    margin: 0% 12% 5% 2%;
+}
+/* student registration image CSS */
+#ppimage{
+    color: black;
+}
+.reg_login{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: white;
+    margin: 3%;
+}
+#log_reg{
+    color: rgb(124, 124, 214);
+    cursor: pointer;
+}
+#log_reg:hover{
+    color: blue;
+}

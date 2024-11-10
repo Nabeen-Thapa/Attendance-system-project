@@ -1,0 +1,89 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman';
+}
+.menu_bar{
+    line-height: 10px;
+    padding: 0.5%;
+    align-items: center;
+    display: block;
+    position: fixed;
+    top: 57px; 
+    font-size: 120%;
+    width: 15.5%;
+    height: calc(100% - 60px);
+    background-color: rgb(37, 36, 36);
+    text-align: left;
+    overflow-y: auto;
+}
+.menu_bar #admin_add_forms{
+    font-family: 'Times New Roman';
+    margin: 0%;
+    padding: 0% 1% 1% 1%;
+    background-color: rgb(75, 73, 73);
+}
+.menu_bar #admin_forms{
+    font-family: 'Times New Roman';
+    padding: 0% 0%;
+    margin: 0% 0.8%;
+    font-size: 85%;
+    width: 94%;
+    height: 100%;
+    background-color: rgb(59, 58, 58);
+    text-align: left;
+}
+#forms_close{
+    margin: 0%;
+    float: right;
+    color: yellow;
+    cursor: pointer;
+    font-size: 120%;
+
+}
+@media only screen and (max-width: 750px) {
+    .menu_bar {
+      display: none;
+    }
+    .teacher_dash_display{
+        width: 100%;
+    }
+
+  }
+.menus,
+.menu_bar div
+{
+    float: inline-start;
+    text-align: left;
+    cursor: pointer;
+    padding: 2% 0% 0% 0%;
+    margin: 4% 0% 0% 0%;
+    color: rgb(247, 235, 250);
+    display: block;
+    border: none;
+    text-decoration: none;
+    font-size: 100%;
+    
+}
+.menu_bar a:hover{
+    background-color: rgb(116, 114, 114);
+    
+}
+.menu_bar a a:hover{
+    background-color: rgb(116, 114, 114);
+    
+}
+.menu_bar .add_forms:hover{
+    background-color: rgb(116, 114, 114);
+    
+}
+/*tacher menu bar images of dashboard*/
+.menus .teach_dashimg{
+    float: inline-end;
+    margin: 0% 0% 0% 0%;
+    padding: 0%; 
+    width: 17%;
+    height: 16%;
+    float: right; 
+}
+
